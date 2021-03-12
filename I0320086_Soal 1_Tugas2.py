@@ -1,30 +1,26 @@
 
 def  pspanjang():
-    print("Selamat Datang")
     print("Silahkan Masukan Panjang")
-    x=float(input("Panjang :"))
+    p=float(input("Panjang :"))
     print("Silahkan Masukan Lebar Persegi Panjang")
-    y=float(input("Lebar :"))
+    l=float(input("Lebar :"))
     print("Luas Persegi Panjang adalah")
-    print(x*y)
+    print(p*l)
 
 def lingkaran():
     phi=3.14
-    print("Selamat Datang")
     print("Silahkan Masukan Jari-Jari")
     r=float(input("Jari-Jari :"))
     print("Luas Lingkaran adalah")
     print(phi*(r**2))
 
 def persegi():
-    print("Selamat Datang")
     print("Silahkan Masukan Sisi")
     s=float(input("Sisi :"))
     print("Luas Persegi :")
     print(s**2)
 
 def celciustofahrenhait():
-    print("Selamat Datang")
     print("Silahkan Masukan Suhu")
     c=float(input("Suhu (Celcius): "))
     f= ((9/5)*c)+32
@@ -32,7 +28,6 @@ def celciustofahrenhait():
     print(f)
 
 def reamurtokelvin():
-    print("Selamat Datang")
     print("Silahkan Masukan Suhu")
     re=float(input("Suhu Reamur): "))
     k= ((5/4)*re)+273
